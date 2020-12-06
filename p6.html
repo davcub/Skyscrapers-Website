@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!-- author:David Cubrilla -->
+	<meta charset="utf-8" />
+	<link href="style6.css" rel="stylesheet" type="text/css"/>
+	<link href="devices6.css" rel="stylesheet" media="only screen and (max-width:1000px)" />
+	<title>Form</title>
+
+<link href="logo.jpg" rel="icon" type="text/icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<header><h1>Website Survey</h1></header>
+
+<nav> 
+	<ul>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/home.html"> Home </a></li>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/p3.html"> Burj Khalifa </a></li>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/p5.html"> Shanghai Tower </a></li>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/p4.html"> Makkah Royal Tower</a></li>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/p7.html"> One World Trade Center</a></li>
+		<li><a href="http://www.kennethkleiner.com/cubrilla/web1/p8.html"> TAIPEI 101 </a></li>
+		<li><a href="http://skyscrapercenter.com/building/international-commerce-centre/137" target="_blank"> International Commerce Centre </a></li>
+		<li><a href="http://skyscrapercenter.com/building/petronas-twin-tower-1/149" target="_blank"> Petronas Twin Towers </a></li>
+		<li><a href="http://skyscrapercenter.com/building/zifeng-tower/165" target="_blank"> Zifeng Tower </a></li>
+		<li><a href="http://skyscrapercenter.com/building/willis-tower/169" target="_blank"> Willis Tower </a></li>
+		<li><a href="http://skyscrapercenter.com/building/kk100/173" target="_blank"> KK100 </a></li>
+	</ul>
+<!-- http://skyscrapercenter.com/buildings -->
+</nav>
+
+<form action="mailto: kenneth.kleiner.ftcc@gmail.com" method="post" enctype="text/plain">
+
+<fieldset id="Textbox">
+<legend>Customer Information</legend>
+
+	<div>
+
+	<input class="A" type="text" name="First Name" id="FirstName" placeholder="First Name"/>
+	</div>
+	
+	<div>
+
+	<input class="A" type="text" name="Last Name" id="LastName" placeholder="Last Name"/>
+	</div>
+
+	<div>
+	
+	<input class="A" type="text" name="City" id="City" placeholder="City"/>
+	</div>
+
+	<div>
+
+	<input class="A" type="text" name="State" id="State" placeholder="State"/>
+	</div>
+
+
+</fieldset>
+
+<fieldset id="Checkbox">
+<legend>Rate this site</legend>
+	<label for="cb1">1</label>
+	<input type="checkbox" name="1" id="cb1"/>
+	<label for="cb2">2</label>
+	<input type="checkbox" name="2" id="cb2"/>
+	<label for="cb3">3</label>
+	<input type="checkbox" name="3" id="cb3"/>
+	<label for="cb4">4</label>
+	<input type="checkbox" name="4" id="cb4"/>
+	<label for="cb5">5</label>
+	<input type="checkbox" name="5" id="cb5"/>
+</fieldset>
+
+<fieldset id="Droplist">
+	<label for="drop1">Where did your hear about us?</label>
+	<select name="Hear about us?" id="drop1">
+		<option value="Internet">Internet</option>
+		<option value="Magazine">Magazine</option>
+		<option value="Friend">Friend</option>
+		<option value="Other">Other</option>
+		<option value="None">None</option>
+	</select>
+
+	<label for="drop2">Which will you likely visit?</label>
+	<select name="Visit?" id="drop2">
+	<optgroup label="Tallest">
+		<option value="Burj Khalifa">Burj Khalifa</option>
+		<option value="Shanghai Tower">Shanghai Tower</option>
+		<option value="Makkah Royal Tower">Makkah Royal Tower</option>
+		<option value="One World Trade Center">One World Trade Center</option>
+		<option value="TAIPEI 101">TAIPEI 101</option>
+
+	</optgroup>
+	<optgroup label="Shortest">
+		<option value="K100">KK100</option>
+		<option value="Willis Tower">Willis Tower</option>
+		<option value="Zifeng Tower">Zifeng Tower</option>
+		<option value="Petronas Twin Towers">Petronas Twin Towers</option>
+		<option value="One World Trade Center">One World Trade Center</option>
+	</optgroup>
+	</select>
+</fieldset>
+
+<fieldset id="Textarea">
+<legend>Comments</legend>
+	<textarea name="area" id="Comments" rows="20" wrap="hard">
+		Awesome!
+	</textarea>
+</fieldset>
+
+<fieldset id="Password">
+<legend>Account Information</legend>
+
+	<input class="B" type="e-mail" name="username" id="un" placeholder="E-mail"/>
+
+	<input class="B" type="password" name="password" id="pw" placeholder="Password"/>
+</fieldset>
+
+<p>
+	<input type="submit" value="Submit My Survey" />
+	<input type="reset" value="Cancel" />
+</p>
+
+</form>
+
+<footer>
+<div>
+<a href="http://www.kennethkleiner.com/cubrilla/web1/p2.html"> Favorite Sites</a><br>
+
+<a href="https://www.facebook.com/people/Fay-Techcc/100006101956481" target="_blank"><img title="Facebook" src="facebooklogo.png" alt="Facebook" witdth="35" height="35" /></a>
+<a href="https://twitter.com/ftcc_mkt232" target="_blank"><img title="Twitter" src="twitterlogo.png" alt="Twitter" witdth="35" height="35" /></a>
+<a href="https://www.linkedin.com/in/fay-techcc-09bb15a5" target="_blank"><img title="LinkedIn" src="linkedinlogo.png" alt="LinkedIn" witdth="35" height="35" /></a>
+<a href="https://www.pinterest.com/faytech232/mkt232/" target="_blank"><img title="Pinterest" src="pinterestlogo.png" alt="Pinterest" witdth="35" height="35" /></a>
+</div>
+</footer>

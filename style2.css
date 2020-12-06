@@ -1,0 +1,82 @@
+* {
+margin:0px;
+padding:0px;
+font-family:Arial,Verdena,Georgia;
+}
+
+body {
+	background-image:url("p2background.jpg");
+	/* http://wallpaperswide.com/ */
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+header {
+	background-color:#00004d;
+}
+
+header h1 {
+	color:white;
+	font-size:100px;
+	margin:0 0 0 100px;
+}
+
+
+nav {background-color:white; width:50%; margin:auto; margin-bottom:20px; margin-top:20px;}
+
+nav ul {
+	list-style-type:none; 
+	border:2px solid #00004d;
+	display:block;
+	margin:auto;
+	height:530px;
+	width:960;	
+}
+
+nav li {
+	border:1px solid #00004d;
+	color:#00004d;
+	height:45px;
+}
+
+nav li a {margin:5px;}
+
+
+/* Home Nav */
+nav ul li:first-child {background-color:#00004d; height:60px;}
+nav ul li:first-child a:link {color:white; font-size:50px;}
+nav ul li:first-child a:hover {background-color:red;}
+nav ul li:first-child a:visited {color:white;}
+
+/* Other Nav */
+nav li a:link {text-decoration:none; color:#00004d; font-size:40px;}
+nav li a:hover {text-decoration:underline; background-color:yellow;}
+nav li a:visited {color:#00004d;}
+nav ul li:nth-child(even) {background-color:#d6d6c2;}
+
+
+div img { 
+	border:2px solid #d6d6c2;
+	display:block;
+	margin:auto;
+	maring-top:20px;
+	margin-bottom:20px;
+}
+
+footer {
+	border:1px solid black;
+	background-color:#d6d6c2;
+	clear:both;
+	margin:0 200px 20px 200px;
+}
+footer div {
+	color:#00004d;
+	font-size:25px;
+	margin:10px 0 10px 10px;
+	text-align:center;
+}
+
+footer div a:link {text-decoration:none; color:#00004d; font-size:125%;}
+footer div a:hover {text-decoration:underline; background-color:yellow;} 
+footer div a:visited {color:#00004d;}
